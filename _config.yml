@@ -65,7 +65,7 @@ disqus: # fromendworld
 gitalk:
   clientID: 5652400bf4da6ba0f854
   clientSecret: 2459a49a6fb80a35dfde398093989fa41e5d6829
-  repo: JumpWang.github.io
+  repo: jumpwang.github.io
   owner: Jump-Wang-111 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
@@ -73,7 +73,7 @@ gitalk:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://JumpWang.github.io
+url: https://jumpwang.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
