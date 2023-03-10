@@ -265,7 +265,7 @@ a.footnote {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1em;
+  margin: 0 auto;
   border-radius: 5px;
 }
 
@@ -468,7 +468,12 @@ nav {
       }
     }
   }
-}
+  
+  .entry {
+    p {
+	  text-indent: 2em;
+    }
+  }
 
 .posts > .post {
   padding-bottom: 2em;
