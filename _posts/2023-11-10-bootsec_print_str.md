@@ -24,7 +24,7 @@ author: JumpWang
 
 后续加载硬盘也应该尽量加载到空闲的区域，不覆盖还需要使用的部分
 
-![image-20231024154600458](C:\Users\25249\AppData\Roaming\Typora\typora-user-images\image-20231024154600458.png)
+![image-20231024154600458](https://picgo-111.oss-cn-beijing.aliyuncs.com/img/202311191715602.png)
 
 ### 主要内容
 
@@ -79,7 +79,7 @@ qemu-system-i386 print_str.bin
 
 hello world总会给人以希望，不是吗？
 
-![image-20231024152350899](C:\Users\25249\AppData\Roaming\Typora\typora-user-images\image-20231024152350899.png)
+![image-20231024152350899](https://picgo-111.oss-cn-beijing.aliyuncs.com/img/202311191715950.png)
 
 ~~我发现了，在这个短视频时代，博客也不能太长，不然没人看~~
 

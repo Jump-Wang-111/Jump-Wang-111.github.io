@@ -87,4 +87,4 @@ times 256 dd 0xdeadbeaf
 
 ### 很欣慰的运行
 
-![image-20231116211549232](C:\Users\25249\AppData\Roaming\Typora\typora-user-images\image-20231116211549232.png)
+![image-20231116211549232](https://picgo-111.oss-cn-beijing.aliyuncs.com/img/202311191716803.png)

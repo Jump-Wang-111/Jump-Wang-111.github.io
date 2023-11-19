@@ -45,7 +45,7 @@ author: JumpWang
 
 ​	段描述符是32位下定义了段属性的8字节结构，如下图所示。
 
-<img src="C:\Users\25249\AppData\Roaming\Typora\typora-user-images\image-20231117162915475.png" alt="image-20231117162915475" style="zoom: 50%;" />
+<img src="https://picgo-111.oss-cn-beijing.aliyuncs.com/img/202311191718247.png" alt="image-20231117162915475" style="zoom:50%;" />
 
 Granularity——if set, this multiplies our limit by 4 K, so our 0xfffff would become 0xfffff000 (i.e. shift 3 hex digits to the left), allowing our segment to span 4 GB of memory.
 
@@ -174,4 +174,4 @@ dw 0xaa55							; magic num of bootsecto
 
 ## 最喜欢的运行
 
-![image-20231117205028126](C:\Users\25249\AppData\Roaming\Typora\typora-user-images\image-20231117205028126.png)
+![image-20231117205028126](https://picgo-111.oss-cn-beijing.aliyuncs.com/img/202311191716768.png)

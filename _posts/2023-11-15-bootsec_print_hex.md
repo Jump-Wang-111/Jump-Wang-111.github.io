@@ -77,4 +77,4 @@ dw 0xaa55							; magic num of bootsecto
 
 ### 很欣慰的运行
 
-![image-20231116194445306](C:\Users\25249\AppData\Roaming\Typora\typora-user-images\image-20231116194445306.png)
+![image-20231116194445306](https://picgo-111.oss-cn-beijing.aliyuncs.com/img/202311191715300.png)
