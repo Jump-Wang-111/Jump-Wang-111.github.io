@@ -18,7 +18,7 @@ author: JumpWang
 
 可以看到，启动扇区会被放置在`0x7c00-0x7e00`的位置，因此我们在汇编代码中，需要告诉机器，把代码放到`0x7c00`的位置
 
-```assembly
+```nasm
 [org 0x7c00]
 ```
 
@@ -34,7 +34,7 @@ author: JumpWang
 
 打印字符串就是最基本的调试能力
 
-```assembly
+```nasm
 [org 0x7c00]
 ; use bios interrupt to show ascii
 ; 0x10 is about screen

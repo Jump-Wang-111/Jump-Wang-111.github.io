@@ -23,7 +23,7 @@ author: JumpWang
 
 ​		将启动扇区之后的512个字节装载到0x9000的内存空间（也就是第2、3扇区）
 
-```assembly
+```nasm
 [org 0x7c00]
 ;test code to load disk
 start:

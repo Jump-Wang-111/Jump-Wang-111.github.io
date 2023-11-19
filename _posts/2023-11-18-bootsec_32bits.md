@@ -23,13 +23,13 @@ author: JumpWang
 
 2. 传递给CPU GDT（global descriptor table）描述符
 
-   ```assembly
+   ```nasm
    lgdt [ gdt_descriptor ]
    ```
 
 3. 执行切换：更改cr0的第一个位来进行实际的切换
 
-   ```assembly
+   ```nasm
    mov eax , cr0 ; To make the switch to protected mode , we set
    or  eax , 0x1 ; the first bit of CR0 , a control register
    mov cr0 , eax ; Update the control register
@@ -37,7 +37,7 @@ author: JumpWang
 
 4. 通过far jump来刷新CPU流水线管道，防止预取的16位指令出现错误
 
-   ```assembly
+   ```nasm
    jmp <segment>: <address offset>
    ```
 
@@ -71,7 +71,7 @@ Type in data seg:
 
 ​		除此之外，CPU还要求GDT中的第一个描述符为空，因此定义GDT如下：
 
-```assembly
+```nasm
 ; GDT
 gdt_start:
 
@@ -109,7 +109,7 @@ DATA_SEG equ gdt_data - gdt_start
 
 ​		我们在切换时实际要传递给CPU的结构，他包括了GDT的大小和起始地址，结构如下所示：
 
-```assembly
+```nasm
 gdt_descriptor:
 	dw gdt_end - gdt_start - 1 		; less 1 of true size
 	dd gdt_start
@@ -119,7 +119,7 @@ gdt_descriptor:
 
 ​		在nasm中需要指定32位的代码和16位的代码，如`[bits 32]`和`[bits 16]`
 
-```assembly
+```nasm
 [org 0x7c00]
 ;test code to switch to 32bits
 start:

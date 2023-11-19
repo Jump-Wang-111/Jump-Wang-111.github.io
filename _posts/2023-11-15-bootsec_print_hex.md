@@ -22,7 +22,7 @@ author: JumpWang
 
 ​		打印hello world的hex
 
-```assembly
+```nasm
 [org 0x7c00]
 ;test code to print hex
 start:
